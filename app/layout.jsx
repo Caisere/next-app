@@ -21,10 +21,14 @@ export default function RootLayout({ children }) {
     return (
         <html lang="en">
             <body
-                className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+                className={`${geistSans.variable} ${geistMono.variable} antialiased text-stone-600`}
             >
-                <PageNav /> 
-                {children}
+                <header className="flex justify-center items-center py-4 bg-stone-400 text-amber-50 fixed top-0 right-0 left-0 z-50">
+                    <PageNav /> 
+                </header>
+                <main className="px-4 py-2 mt-18">
+                    {children}
+                </main>
             </body>
         </html>
     );

@@ -1,8 +1,19 @@
 @import "tailwindcss";
 
 :root {
+    --primaryBackground: #333;
+}
+
+a:active,
+a:focus{
+    font-weight: bold;
+    color:black
+}
+
+
+/* :root {
     --background: #ffffff;
-    /* --foreground: #000000; */
+    --foreground: #000000;
     --primaryBackground: #333;
 }
 
@@ -18,11 +29,4 @@
         --background: #0a0a0a;
         --foreground: #ededed;
     }
-}
-
-body {
-    color: var(--foreground);
-    background: var(--primaryBackground);
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 1rem;
-}
+} */
