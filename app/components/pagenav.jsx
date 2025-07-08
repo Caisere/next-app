@@ -1,17 +1,18 @@
 import React from 'react';
 import Link from 'next/link';
+import NavLink from './NavLink';
 
 const PageNav = () => {
     return (
         <ul className='flex gap-5'>
             <li>
-                <Link href='/'>Home</Link>
+                <NavLink href='/'>Home</NavLink>
             </li> 
             <li>
-                <Link href='/about'>About-us</Link>
+                <NavLink href='/about'>About-us</NavLink>
             </li>
             <li>
-                <Link href='/users' prefetch={true}>Users</Link>    
+                <NavLink href='/users' prefetch={true}>Users</NavLink>    
             </li> 
         </ul>
     )

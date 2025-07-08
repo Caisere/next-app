@@ -4,11 +4,11 @@
     --primaryBackground: #333;
 }
 
-a:active,
+/* a:active,
 a:focus{
     font-weight: bold;
     color:black
-}
+} */
 
 
 /* :root {
